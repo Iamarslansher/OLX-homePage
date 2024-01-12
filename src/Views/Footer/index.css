@@ -1,0 +1,61 @@
+.footer {
+  width: 100%;
+  margin-top: 50px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background: linear-gradient(50deg, brown, black);
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.links h3 {
+  color: white;
+}
+
+.followUS {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.contactUs {
+  cursor: pointer;
+
+  font-size: 20px;
+}
+
+.forCall {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.links div {
+  margin-top: 10px;
+}
+
+.a-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.a-links a {
+  text-decoration: none;
+  color: blue;
+}
+
+.pargraph {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-bottom: 20px;
+}
+
+.footerImg {
+  width: 100%;
+  height: 40px;
+}

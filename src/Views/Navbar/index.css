@@ -1,0 +1,239 @@
+.navBar {
+  width: 100%;
+  height: 16vh;
+  background: gray;
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+
+.nav-div-1 {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+}
+
+/* DIV-1 */
+
+.div-1-container {
+  display: flex;
+}
+
+.logo-img {
+  width: 40px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.car-logo {
+  border-radius: 50%;
+  padding: 7px;
+  margin-left: 30px;
+  border: 2px solid aqua;
+  background-color: rgb(179, 170, 170);
+  display: flex;
+  align-items: center;
+}
+
+.car-logo:hover {
+  box-shadow: 0 0 8px aqua;
+}
+
+.car-text {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  font-weight: 300;
+  color: black;
+}
+
+.building-logo {
+  border-radius: 50%;
+  padding: 7px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  border: 2px solid aqua;
+  background-color: rgb(179, 170, 170);
+}
+
+.building-logo:hover {
+  box-shadow: 0 0 8px aqua;
+}
+
+.building-text {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  font-weight: 300;
+  color: black;
+}
+
+/* DIV-2 */
+.nav-div-2 {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.div-2-container {
+  display: flex;
+  margin-left: 95px;
+}
+
+.olx-logo {
+  width: 55px;
+  margin-left: 10px;
+}
+
+.inputField-1 {
+  margin-left: 40px;
+  padding-right: 35px;
+  padding: 2px;
+  border: 2px solid rgb(22, 32, 22);
+  border-radius: 4px;
+  font-weight: 800;
+  padding-left: 26px;
+  font-size: 13px;
+  outline: none;
+
+  background-image: url("https://assets.stickpng.com/images/585e4ae1cb11b227491c3393.png");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: left;
+}
+
+#input {
+  background-image: url("https://icons.veryicon.com/png/o/miscellaneous/small-monochrome-icon/drop-down-arrow-4.png");
+  background-position: right;
+  background-size: 20px;
+}
+
+.inputField-1:focus {
+  border: 2px solid aqua;
+  box-shadow: 0 0 5px aqua;
+}
+
+.input-span {
+  margin-left: 40px;
+  border-radius: 4px;
+  /* border: 2px solid rgb(22, 32, 22); */
+}
+
+.inputField-2 {
+  padding: 5px;
+  padding-top: 8px;
+  padding-right: 150px;
+  outline: none;
+  font-size: 13px;
+  font-weight: 800;
+  padding-bottom: 17.5px;
+}
+.serchBtn {
+  padding: 13px;
+  padding-bottom: 18px;
+  padding-top: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(22, 32, 22);
+}
+
+.inputField-2:focus {
+  border: 2px solid aqua;
+  box-shadow: 0 0 5px aqua;
+  border-radius: 4px;
+}
+
+.loginLink {
+  margin-left: 50px;
+  margin-top: 5px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 2px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  transition: all 1s;
+}
+
+.loginLink:hover {
+  text-decoration: none;
+}
+
+.sellBtn {
+  margin-left: 70px;
+  padding: 12px 20px;
+  display: flex;
+  gap: 4px;
+  font-size: 15px;
+  font-weight: 500;
+  border-bottom: 4px solid orange;
+  border-right: 4px solid green;
+  border-top: 4px solid blue;
+  border-left: 4px solid darkcyan;
+  background-color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.linkDiv {
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: rgba(190, 190, 190, 0.103);
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.link:hover {
+  color: aqua;
+}
+
+.img-slider {
+  width: 100%;
+}
+
+.img-slider {
+  width: 100%;
+  height: 250px;
+  background-image: url("./image/slider.jpeg");
+  background-size: 100% 100%;
+  background-position: center;
+  cursor: pointer;
+  animation: slideRight 20s ease-in 1s infinite;
+}
+@keyframes slideRight {
+  8% {
+    background-image: url("https://img.freepik.com/free-vector/gradient-product-card-template_23-2149656335.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1704326400&semt=ais");
+  }
+  20% {
+    background-image: url("https://burst.shopifycdn.com/photos/wrist-watches.jpg?width=1000&format=pjpg&exif=0&iptc=0");
+  }
+  40% {
+    background-image: url("https://queue-it.com/media/ppcp1twv/product-drop.jpg");
+  }
+  60% {
+    background-image: url("https://www.dreamhost.com/blog/wp-content/uploads/2019/06/afa314e6-1ae4-46c5-949e-c0a77f042e4f_DreamHost-howto-prod-descrips-full.jpeg");
+  }
+  80% {
+    background-image: url("https://images.pexels.com/photos/1667071/pexels-photo-1667071.jpeg?cs=srgb&dl=pexels-laryssa-suaid-1667071.jpg&fm=jpg");
+  }
+  100% {
+    background-image: url("https://ecommercephotographyindia.com/assets/img/gallery/cosmetics-turquoise-bg.jpg");
+  }
+}

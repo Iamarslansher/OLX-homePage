@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Router from "./Config/router";
 
+import Navbar from "./Views/Navbar";
+import Footer from "./Views/Footer";
+import GoToTop from "./ReUseAble/GoToTop";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="sub-container">
+        {/* NAVBAR - COMPONENT */}
+        <Navbar />
+
+        {/* ROUTER - COMPONENT */}
+        <Router />
+        <br />
+        <br />
+
+        <GoToTop />
+        {/* FOOTER - COMPONENT */}
+        <Footer />
+      </div>
     </div>
   );
 }

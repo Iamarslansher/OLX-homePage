@@ -1,0 +1,34 @@
+.main-container {
+  width: 100%;
+
+  margin-top: 40px;
+}
+
+.heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  text-decoration-color: aqua;
+  text-underline-offset: 8px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.categoriesDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.img-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 175px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.img-text img:hover {
+  border: 2px solid aqua;
+  border-radius: 50%;
+}
